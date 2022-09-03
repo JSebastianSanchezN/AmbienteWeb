@@ -1,15 +1,15 @@
 <template>
-    <!-- <AmbienteWeb/>
-    <Restaurantes/>
+    <AmbienteWeb/> <!-- 
+    <Restaurantes/> 
     <Mercados/>
     <Farmacias/>
     <Tiendas/>
     <Bares/>
     <Recreacion/>
-    <Hospedajes/>   
-    <Restaurante/>
-    <RegistrarRestaurante/> -->
-    <RegistrarEstablecimiento/>
+    <Hospedajes/> 
+    <Restaurante/>  
+    <RegistrarRestaurante/> 
+    <RegistrarEstablecimiento/> -->
  </template>
  
  <script>

@@ -1,5 +1,5 @@
 <template>
-    <Cabecera/>
+    <Cabecera/> 
     <div id="menus">
         <div id="menulateral">
             <img :src='mostrar.img' id="imgmenu"/>

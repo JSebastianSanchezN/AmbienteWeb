@@ -18,13 +18,13 @@ export default {
     name: 'opciones',
     data() {
         return {
-            imagenes: [{img:'Trabajo/restaurante.png', left1:"margin-left: 8px;#imgopciones",left2:"margin-left: 0px;#titulos",textos:'Restaurantes'},
-            {img:'Trabajo/mercado.png', left1:"margin-left: 32px;#imgopciones",left2:"margin-left: 38px;#titulos",textos:'Mercados'},
-            {img:'Trabajo/farmacia.png',left2:"margin-left: 45px;#titulos",textos:'Farmacias'},
-            {img:'Trabajo/tienda.png',left2:"margin-left: 55px;#titulos",textos:'Tiendas'},
-            {img:'Trabajo/bar.png',left2:"margin-left: 66px;#titulos",textos:'Bares'},
-            {img:'Trabajo/recreacion.png',left2:"margin-left: 40px;#titulos",textos:'Recreacion'},
-            {img:'Trabajo/hotel.png',left2:"margin-left: 42px;#titulos",textos:'Hospedaje'}]
+            imagenes: [{img:'../../../Trabajo/restaurante.png', left1:"margin-left: 8px;#imgopciones",left2:"margin-left: 0px;#titulos",textos:'Restaurantes'},
+            {img:'../../../Trabajo/mercado.png', left1:"margin-left: 32px;#imgopciones",left2:"margin-left: 38px;#titulos",textos:'Mercados'},
+            {img:'../../../Trabajo/farmacia.png',left2:"margin-left: 45px;#titulos",textos:'Farmacias'},
+            {img:'../../../Trabajo/tienda.png',left2:"margin-left: 55px;#titulos",textos:'Tiendas'},
+            {img:'../../../Trabajo/bar.png',left2:"margin-left: 66px;#titulos",textos:'Bares'},
+            {img:'../../../Trabajo/recreacion.png',left2:"margin-left: 40px;#titulos",textos:'Recreacion'},
+            {img:'../../../Trabajo/hotel.png',left2:"margin-left: 42px;#titulos",textos:'Hospedaje'}]
         }
     },
     unmounted: () => {

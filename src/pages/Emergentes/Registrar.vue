@@ -11,7 +11,7 @@
         <div id="imglateral">
             <p id="titulo" v-for="a in imagenes" :style="a.estilo">{{a.texto}}</p>
             <div id="beneficios" v-for="b in beneficios">
-                <img src="Trabajo/noun-check-4728432.png" id="img" :style="b.estilo"/>
+                <img src="../../../Trabajo/noun-check-4728432.png" id="img" :style="b.estilo"/>
                 <p id="titulo" :style="b.estilo2">{{b.texto}}</p>
             </div>
         </div>

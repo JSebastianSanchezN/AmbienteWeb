@@ -6,10 +6,10 @@
             <span>, puedes ir donde quieras ir</span>
         </p>
         <div id="direccioniniciog">
-            <img src='Trabajo/noun-map-marker-224730.png' id='imgubiactual' style="width: 70px;height: 70px;left:0;#imgubiactual"/>
+            <img src='../../../Trabajo/noun-map-marker-224730.png' id='imgubiactual' style="width: 70px;height: 70px;left:0;#imgubiactual"/>
             <p id="empezarviaje" style="left: 80px;#empezarviaje">¿En donde quieres empezar tu viaje?</p>
         </div>
-        <img src='Trabajo/noun-pointer-2012011.png' id='imgubiactual1'/>
+        <img src='../../../Trabajo/noun-pointer-2012011.png' id='imgubiactual1'/>
         <p id="ubiactual1">Usar tu ubicación actual</p>
         <p id="inicia">
             <span id="subrayada">Iniciar sesión</span>

@@ -24,8 +24,8 @@ export default {
     name: 'registro',
     data() {
         return {
-            imagenes: [{img:'Trabajo/registro1.jpg',texto1:'restaurante',texto2:'Únete a PanceTour con tu restautante y descubre los miles de beneficios que trae ser parte de una gran comunidad.'},
-            {img:'Trabajo/registro2.jpg', left1:"margin-left: 199px;#registra",texto1:'establecimiento',texto2:'Unete a PanceTour junto a tu establecimiento y descubre el gran alcance al que puedes llegar junto a los clientes y a nosotros.'}]
+            imagenes: [{img:'../../../Trabajo/registro1.jpg',texto1:'restaurante',texto2:'Únete a PanceTour con tu restautante y descubre los miles de beneficios que trae ser parte de una gran comunidad.'},
+            {img:'../../../Trabajo/registro2.jpg', left1:"margin-left: 199px;#registra",texto1:'establecimiento',texto2:'Unete a PanceTour junto a tu establecimiento y descubre el gran alcance al que puedes llegar junto a los clientes y a nosotros.'}]
         }
     },
     unmounted: () => {

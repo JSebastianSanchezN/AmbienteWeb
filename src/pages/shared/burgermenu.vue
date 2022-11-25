@@ -1,7 +1,7 @@
 <template>
     <div id="menuburger">
         <div id="arriba">
-            <img src='Trabajo/noun-close-5115237.png' id='cerrar' @click="$emit('change',false)"/>
+            <img src='../../../Trabajo/noun-close-5115237.png' id='cerrar' @click="$emit('change',false)"/>
         </div>
         <div id="botones">
             <button id="btn1" @click="ingresar">Ingreso</button>
@@ -15,7 +15,7 @@
         <div id="secciones" v-for="p in items" style="margin-top: 1px;#secciones">
             <router-link :to="{name:p.textos}" id="secciones" @click="$emit('change',false)">
                 <p id="nombreSec">{{p.textos}}</p>
-                <img src="Trabajo/noun-right-1920905.png" id='flechita'/>
+                <img src="../../../Trabajo/noun-right-1920905.png" id='flechita'/>
             </router-link>
         </div>
 
@@ -24,7 +24,7 @@
         <div id="secciones" v-for="f,index in items2" style="margin-top: -2px;#secciones">
             <router-link :to={name:items3[index].textos} id="secciones" @click="$emit('change',false)">
                 <p id="nombreSec">{{f.textos}}</p>
-                <img src="Trabajo/noun-right-1920905.png" id='flechita'/>
+                <img src="../../../Trabajo/noun-right-1920905.png" id='flechita'/>
             </router-link>
         </div>
     </div>

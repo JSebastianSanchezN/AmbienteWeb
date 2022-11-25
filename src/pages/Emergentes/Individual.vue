@@ -9,18 +9,18 @@
                 <p id="info" v-for="e in items">{{e.texto}}:</p>
             </div>
             <div id="descripcion2">
-                <img src="Trabajo/noun-discount-5142216.png" id="descuento"/>
+                <img src="../../../Trabajo/noun-discount-5142216.png" id="descuento"/>
                 <p id="info2">Descuento</p>
-                <img src="Trabajo/noun-right-1920905.png" style="margin-left: 93px;object-fit:contain;#descuento" id="descuento"/>
+                <img src="../../../Trabajo/noun-right-1920905.png" style="margin-left: 93px;object-fit:contain;#descuento" id="descuento"/>
             </div>
             <div id="detallesmenus" style="align-items: center;#detallesmenus">
-                <img src="Trabajo/noun-restaurant-5130920.png" style="margin-left: 32px;#descuento" id="descuento"/>
+                <img src="../../../Trabajo/noun-restaurant-5130920.png" style="margin-left: 32px;#descuento" id="descuento"/>
                 <p id="info2" style="margin-left: 1px;#info2">{{mostrar.texto1}} y Precio</p>
             </div>
             <div id="detallesmenus" style="height: 194px;margin-top: -1px;display:flow-root;#detallesmenus">
                 <div id="interior1" v-for="f in items1">
                     <p id="info2" style="margin-top: 18px;margin-left: 32px;margin-bottom:0px;color: black;#info2">{{mostrar.texto2}} {{f.texto}}</p>
-                    <img src="Trabajo/noun-right-1920905.png" style="margin-left:auto;margin-right: 10px;margin-top: 18px;object-fit: contain    ;#descuento" id="descuento"/>
+                    <img src="../../../Trabajo/noun-right-1920905.png" style="margin-left:auto;margin-right: 10px;margin-top: 18px;object-fit: contain    ;#descuento" id="descuento"/>
                 </div>
             </div>
         </div>
@@ -45,13 +45,13 @@
         <div id="interior2">
             <div id="puntuaciones">
                 <p id="titulomenu" style="margin-top: 21px;margin-left: 128px;font-size: 20px;margin-bottom:0px;#titulomenu">4.3</p>
-                <img src="Trabajo/noun-star-rate-3237248.png" id="estrellas"/>
+                <img src="../../../Trabajo/noun-star-rate-3237248.png" id="estrellas"/>
                 <p id="titulomenu" style="margin-top: 15px;margin-left: 127px;font-size: 12px;#titulomenu">(xxxx)</p>
             </div>
             <div id="puntuaciones2">
                 <div id="interior2" v-for="g in items3">
                     <p id="info2" :style="g.style1">{{g.texto}}</p>
-                    <img src="Trabajo/noun-star.png" id="estrella" :style='g.style2'/>
+                    <img src="../../../Trabajo/noun-star.png" id="estrella" :style='g.style2'/>
                     <div id="carga" :style="g.style3"></div>
                     <div id="carga2" :style="g.style4"></div>
                 </div>
@@ -83,13 +83,13 @@ data(){
     {texto:'3',style1:"color: #000000;margin-top: 0px;margin-left: 20px;font-size: 12px;#info2",style2:"margin-top: 0px;#estrella",style3:"margin-top: 0px;#carga",style4:"margin-top: 0px;#carga2"},
     {texto:'2',style1:"color: #000000;margin-top: 0px;margin-left: 20px;font-size: 12px;#info2",style2:"margin-top: 0px;#estrella",style3:"margin-top: 0px;#carga",style4:"margin-top: 0px;#carga2"},
     {texto:'1',style1:"color: #000000;margin-top: 0px;margin-left: 20px;font-size: 12px;#info2",style2:"margin-top: 0px;#estrella",style3:"margin-top: 0px;#carga",style4:"margin-top: 0px;#carga2"}],
-    items4:[{img:'Trabajo/restaurantes.jpg', texto1:'Menus ',texto2:'Menu',texto3:'Plato',texto4:'el Restaurante'},
-    {img:'Trabajo/mercados.jpg', texto1:'Secciones ',texto2:'Seccion',texto3:'Producto',texto4:'el Mercado'},
-    {img:'Trabajo/farmacias.jpg', texto1:'Secciones ',texto2:'Seccion',texto3:'Producto',texto4:'la Farmacia'},
-    {img:'Trabajo/tiendas.jpg', texto1:'Categorias ',texto2:'Categoria',texto3:'Producto',texto4:'la Tienda'},
-    {img:'Trabajo/bares.jpg', texto1:'Categorias ',texto2:'Categoria',texto3:'Bebida',texto4:'el Bar'},
-    {img:'Trabajo/recreacion.jpg', texto1:'Planes ',texto2:'Plan',texto3:'Atraccion',texto4:'el lugar de Recreacion'},
-    {img:'Trabajo/hospedaje.jpg', texto1:'Categorias ',texto2:'Categoria',texto3:'Habitacion',texto4:'el lugar de Hospedaje'}],
+    items4:[{img:'../../../Trabajo/restaurantes.jpg', texto1:'Menus ',texto2:'Menu',texto3:'Plato',texto4:'el Restaurante'},
+    {img:'../../../Trabajo/mercados.jpg', texto1:'Secciones ',texto2:'Seccion',texto3:'Producto',texto4:'el Mercado'},
+    {img:'../../../Trabajo/farmacias.jpg', texto1:'Secciones ',texto2:'Seccion',texto3:'Producto',texto4:'la Farmacia'},
+    {img:'../../../Trabajo/tiendas.jpg', texto1:'Categorias ',texto2:'Categoria',texto3:'Producto',texto4:'la Tienda'},
+    {img:'../../../Trabajo/bares.jpg', texto1:'Categorias ',texto2:'Categoria',texto3:'Bebida',texto4:'el Bar'},
+    {img:'../../../Trabajo/recreacion.jpg', texto1:'Planes ',texto2:'Plan',texto3:'Atraccion',texto4:'el lugar de Recreacion'},
+    {img:'../../../Trabajo/hospedaje.jpg', texto1:'Categorias ',texto2:'Categoria',texto3:'Habitacion',texto4:'el lugar de Hospedaje'}],
     mostrar:{img:'',texto1:'',texto2:'',texto3:'',texto4:''}
     }
 },

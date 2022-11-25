@@ -3,7 +3,7 @@
   <div id="seccion">
     <p id="titulo1">{{this.$route.name}} en Pance</p>
     <div id="inicio">
-      <img src="Trabajo/noun-house-5117342.png" id="imgseccion"/>
+      <img src="../../../Trabajo/noun-house-5117342.png" id="imgseccion"/>
       <p id="content">Inicio·{{this.$route.name}} en Pance</p>
     </div>
   </div>
